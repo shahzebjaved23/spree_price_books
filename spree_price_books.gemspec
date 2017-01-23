@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'google_currency'
-  s.add_dependency 'spree_core', '~> 2.3.0'
+  s.add_dependency 'spree_core', '~> 3.1.2'
   s.add_dependency 'validates_timeliness', '~> 3.0'
 
   s.add_development_dependency 'capybara', '~> 2.1'
@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'pg'
   s.add_development_dependency 'rspec-rails',  '~> 2.13'
-  s.add_development_dependency 'sass-rails', '~> 4.0.2'
+  s.add_development_dependency 'sass-rails', '~> 5.0.6'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'sqlite3'
